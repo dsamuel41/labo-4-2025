@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+}
+
+h1 {
+  color: blue;
+}
+
+h3 {
+  color: green;
+  margin-top: 30px;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  padding: 5px 15px;
+  background-color: lightblue;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+p[id*="resultado"] {
+  background-color: lightyellow;
+  padding: 10px;
+  border: 1px solid orange;
+  margin: 10px 0;
+}
